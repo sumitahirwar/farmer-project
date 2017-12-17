@@ -1,0 +1,76 @@
+<!-- team -->
+<div class="jarallax agileits-team agile-section" id="team">
+	<div class="container">
+		<span class="wthree-line wthree-left"></span>
+		<span class="wthree-line wthree-right"></span>
+		<i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+		<h3 class="agileits-title text-center">team</h3>
+		<div class="w3agile-team">
+			<div class="col-md-4  col-sm-4 w3_agileits-team-grid">
+				<img src="images/4.jpg" class="img-responsive" alt="">
+				<div class="team-text">
+					<h4>Jones </h4>
+					<p>Dept. of Agriculture</p>
+					<span>+12 345 6789</span>
+				</div>	
+				 <div class="social">
+                        <ul>
+							<li><a class="icon fb" href="#"><i class="fa fa-facebook"></i></a></li>
+							<li><a class="icon tw" href="#"><i class="fa fa-twitter"></i></a></li>
+							<li><a class="icon pin" href="#"><i class="fa fa-pinterest"></i></a></li>
+							<li><a class="icon db" href="#"><i class="fa fa-dribbble"></i></a></li>
+							<li><a class="icon gp" href="#"><i class="fa fa-google-plus"></i></a></li>
+						</ul>
+				</div>
+				<div class="team-msg">
+					<a class="icon gp" href="#"><i class="fa fa-envelope-o"></i></a>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<div class="col-md-4 col-sm-4 w3_agileits-team-grid t2">
+				<img src="images/5.jpg" class="img-responsive" alt="">
+				<div class="team-text">
+					<h4>Thompkins</h4>
+					<p>Dept. of Forestry</p>
+					<span>+12 345 6789</span>
+				</div>	
+				 <div class="social">
+                        <ul>
+							<li><a class="icon fb" href="#"><i class="fa fa-facebook"></i></a></li>
+							<li><a class="icon tw" href="#"><i class="fa fa-twitter"></i></a></li>
+							<li><a class="icon pin" href="#"><i class="fa fa-pinterest"></i></a></li>
+							<li><a class="icon db" href="#"><i class="fa fa-dribbble"></i></a></li>
+							<li><a class="icon gp" href="#"><i class="fa fa-google-plus"></i></a></li>
+						</ul>
+				</div>
+				<div class="team-msg">
+					<a class="icon gp" href="#"><i class="fa fa-envelope-o"></i></a>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<div class="col-md-4 col-sm-4 w3_agileits-team-grid">
+				<img src="images/6.jpg" class="img-responsive" alt="">
+				<div class="team-text">
+					<h4>Evans </h4>
+					<p>Dept. of Farming</p>
+					<span>+12 345 6789</span>
+				</div>	
+				 <div class="social">
+                        <ul>
+							<li><a class="icon fb" href="#"><i class="fa fa-facebook"></i></a></li>
+							<li><a class="icon tw" href="#"><i class="fa fa-twitter"></i></a></li>
+							<li><a class="icon pin" href="#"><i class="fa fa-pinterest"></i></a></li>
+							<li><a class="icon db" href="#"><i class="fa fa-dribbble"></i></a></li>
+							<li><a class="icon gp" href="#"><i class="fa fa-google-plus"></i></a></li>
+						</ul>
+				</div>
+				<div class="team-msg">
+					<a class="icon gp" href="#"><i class="fa fa-envelope-o"></i></a>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>	
+<!-- //team -->

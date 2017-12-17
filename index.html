@@ -1,0 +1,1299 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Style --> <link rel="stylesheet" href="css/style_form.css" type="text/css" media="all" />
+	<!-- Default-JavaScript-File --> <script type="text/javascript" src="js/jquery.min.js"></script>
+
+	<!-- Web-Fonts -->
+		<link href='//fonts.googleapis.com/css?family=Raleway:400,500,600,700,800' rel='stylesheet' type='text/css'>
+		<link href='//fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
+	<!-- //Web-Fonts -->
+<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+
+<!-- stylesheet -->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<!-- Chocolat-CSS --> <link rel="stylesheet" href="css/chocolat.css"	  type="text/css" media="all">
+<!-- animation --><link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!-- //stylesheet -->
+<!-- online fonts -->
+<link href="//fonts.googleapis.com/css?family=Cormorant+Unicase:300,400,500,600,700&subset=cyrillic,latin-ext,vietnamese" rel="stylesheet">
+<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+<!-- //online fonts -->
+<!-- font-awesome-icons -->
+<link href="css/font-awesome.css" type="text/css" rel="stylesheet"> 
+
+ <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,300,600' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+  
+      <link rel="stylesheet" href="css/style.css">
+
+<!-- //font-awesome-icons -->
+<!-- Supportive-JavaScript -->
+<script src="js/modernizr.js"></script>
+<!-- //Supportive-JavaScript -->
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script>
+</head>
+<body>
+<!-- banner -->
+<div class="banner">
+	<nav class="navbar navbar-default">
+		<div class="container">
+		<div class="navbar-header navbar-left">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<div class="w3_navigation_pos">
+				<h1><a href="index.html"><span>G</span></a></h1>
+			</div>
+		</div>
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+			<nav class="link-effect-2" id="link-effect-2">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="index.html" class="scroll"><span data-hover="Home">Home</span></a></li>
+					<li><a href="#about" class="scroll"><span data-hover="About" >About</span></a></li>
+					<li><a href="#services" class="scroll"><span data-hover="Services">Services</span></a></li>
+					<li><a href="#portfolio" class="scroll"><span data-hover="Portfolio">Portfolio</span></a></li>
+					<li><a href="#team" class="scroll"><span data-hover="Portfolio">Login</span></a></li>
+					<li><a href="#contact" class="scroll"><span data-hover="Contact">Contact</span></a></li>
+				</ul>
+			</nav>
+		</div>
+		</div>
+	</nav>	
+	<div class="banner-info">
+		<div class="container">
+			<div class="slider">
+				<div class="callbacks_container">
+					<ul class="rslides" id="slider4">
+						<li>
+							<div class="w3ls-text">
+								<h5>grains</h5>
+								<h3>SEARCH FOR CROPS AND AGRI UNITS</h3>
+								<p>Farm Produce Buyers can search for crops listed by farmers. Farmers can search for Cattle, Used Farm Machinery, Organic Manure that other farmers have listed for sale. One can also search for Agri-Service Units, Agri-Product Companies and Best Practices listed.</p>
+							</div>
+						</li>
+						<li>
+							<div class="w3ls-text">
+								<h5>grains</h5>
+								<h3>LIST YOUR CROPS </h3>
+								<p>Farmers/Food Processing Companies or Farmers representatives can list their Crops, Cattle, Organic Manure, Land for Lease/Sale or Used Farm Machinery to sell online.</p>
+							</div>
+						</li>
+						<li>
+							<div class="w3ls-text">
+								<h5>grains</h5>
+								<h3>FARM PRODUCE BUYER COMPANIES</h3>
+								<p>Farm Produce Buyers like SuperMarkets, Food Processing Units like Fruit Pulping, Mills etc and Traders/Stockists/Mandy’s can register and search for the listings of the farmers about their crops and place orders online .</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<script src="js/responsiveslides.min.js"></script>
+				<script>
+					// You can also use "$(window).load(function() {"
+					$(function () {
+					  // Slideshow 4
+					  $("#slider4").responsiveSlides({
+						auto: true,
+						pager:true,
+						nav:true,
+						speed: 500,
+						namespace: "callbacks",
+						before: function () {
+						  $('.events').append("<li>before event fired.</li>");
+						},
+						after: function () {
+						  $('.events').append("<li>after event fired.</li>");
+						}
+					  });
+				
+					});
+				 </script>
+				<!--banner Slider starts Here-->
+			</div>
+		</div>
+		<div class="banner-bottom">
+			<div class="container">
+				<div class="col-md-4 col-sm-4 agile-banner-bottom-grid1 b1">
+					<h3>AGRI-SERVICE UNITS</h3>
+					<p>If you own Agriculture Service Unit like Cold Storage Facility, Food Processing Unit, Storage Facility, Milling Unit, Ripening Chambers, Packing Facility, Market Yard, Logistics Units etc, you can list them here and let the farmers and traders know about your self</p>
+				</div>
+				<div class="col-md-4 col-sm-4 agile-banner-bottom-grid1 b2">
+					<h3>AGRI-PRODUCT COMPANIES</h3>
+					<p>If you are interested in selling your products and services to farmers you can list them here.
+
+
+It can be Fertilizers, Seeds, Pesticides, Seedlings, Nurseries both Organic and In-Organic, Soil health tests, Drips, Water Pumping Motors, Tractors, Tillers, Sprayers, Sprinklers, Agri-tools and many more that farmers use for their agricultural needs.</p>
+				</div>
+				<div class="col-md-4 col-sm-4 agile-banner-bottom-grid1">
+					<h3>LIST A BEST PRACTICE</h3>
+					<p>Farmers or Farmers representatives can list the best practices which they have implemented in their farms successfully and got more produce with less investment. This can be useful for other farmers.</p>
+				</div>
+				<div class="clearfix"></div>
+			</div>	
+		</div>
+		<div class="w3-arrow bounce animated">
+			<a href="#about" class="scroll"><i class="fa fa-angle-down" aria-hidden="true"></i></a>
+		</div>
+
+	</div>
+</div>
+<!-- //banner -->	
+<!-- about -->
+<div class="jarallax agileits-about agile-section" id="about">
+	<div class="container">
+		<span class="wthree-line wthree-left"></span>
+		<span class="wthree-line wthree-right"></span>
+		<i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+		<h3 class="agileits-title text-center">about us</h3>
+		<div class="w3agile-about">
+			<div class="col-md-6 col-sm-6 col-xs-6 w3_agileits-about-left">
+				<div class="w3_agileits-about-bottom">
+				</div>
+			</div>
+			<div class="col-md-6 col-sm-6 col-xs-6 w3_agileits-about-right">
+				<span class="w3ls-abt"></span>
+				<p>Farmers market is India's No.1 Market Place for farmers and all other agriculture stake holders. Farmers can sell/buy/lease their land, crops, natural manures, cattle, used farm machinery etc using this e-Trading Platform. Farmers can also transparently buy inputs and implements using online shopping and ecommerce platform.</p>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>	
+<!-- //about -->
+<!-- services -->
+<div class="jarallax agileits-services agile-section" id="services">
+	<div class="container">
+		<span class="wthree-line wthree-left"></span>
+		<span class="wthree-line wthree-right"></span>
+		<i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+		<h3 class="agileits-title text-center">services</h3>
+		<div class="w3agile-services text-center">
+			<div class="col-md-3 w3_agileits-service-grid">
+				<span class="w3ls-icon fa fa-truck" aria-hidden="true"></span>
+				<h4>LIST YOUR PRODUCE</h4>
+				<p>In this section, the farmers can upload information about their grains, their type, quantity and cost.</p>
+			</div>
+			<div class="col-md-3 w3_agileits-service-grid sr1">
+				<span class="w3ls-icon fa fa-cog" aria-hidden="true"></span>
+				<h4>SEARCH YOUR PRODUCTS</h4>
+				<p>In this section, the customers/retailers can search for their desired products as per their needs and then proceed.</p>
+			</div>
+			<div class="col-md-3 w3_agileits-service-grid sr2">
+				<span class="w3ls-icon fa fa-tint" aria-hidden="true"></span>
+				<h4>ORDER DETAILS</h4>
+				<p>Here,customers can keep a track on their order details, the date of delivery,etc</p>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>	
+<!-- //services -->
+<!-- portfolio -->	
+<div class="jarallax wthreelocationsaits agile-section" id="portfolio">
+	<div class="container">
+		<span class="wthree-line wthree-left"></span>
+		<span class="wthree-line wthree-right"></span>
+		<i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+			<h3 class="agileits-title text-center">portfolio</h3>
+			<section class="grid3d vertical" id="grid3d">
+				<div class="grid-wrap">
+					<div class="grid">
+						<figure class="col-md-4 effect-zoe"><img src="images/g1.jpg" alt="Odyssey"><figcaption><h4>CROPS</h4></figcaption></figure>
+						<figure class="col-md-4 effect-zoe"><img src="images/g7.jpg" alt="Odyssey"><figcaption><h4>SEEDS</h4></figcaption></figure>
+						<figure class="col-md-4 effect-zoe"><img src="images/g3.jpg" alt="Odyssey"><figcaption><h4>LIVESTOCK</h4></figcaption></figure>
+						<figure class="col-md-4 effect-zoe"><img src="images/g4.jpg" alt="Odyssey"><figcaption><h4>FARMING</h4></figcaption></figure>
+						<figure class="col-md-4 effect-zoe"><img src="images/g5.jpg" alt="Odyssey"><figcaption><h4>GRAINS</h4></figcaption></figure>
+						<figure class="col-md-4 effect-zoe"><img src="images/g1.jpg" alt="Odyssey"><figcaption><h4>RAISING</h4></figcaption></figure>
+						<figure class="col-md-4 effect-zoe"><img src="images/g2.jpg" alt="Odyssey"><figcaption><h4>PADDY</h4></figcaption></figure>
+						<figure class="col-md-4 effect-zoe"><img src="images/g7.jpg" alt="Odyssey"><figcaption><h4>CROPS</h4></figcaption></figure>
+						<figure class="col-md-4 effect-zoe"><img src="images/g6.jpg" alt="Odyssey"><figcaption><h4>GRAINS</h4></figcaption></figure>
+					</div>
+				</div>
+				<div class="content">
+					<div>
+						<div class="dummy-img dummy-img-1"><img src="images/g1.jpg" alt="Odyssey"></div>
+						<p class="dummy-text aitsheadingw3">CROPS</p>
+						<p class="dummy-text">
+							<div id="crops">
+								<table cellpadding="50px", cellspacing="90px", align="center">
+									<tr>
+										<td>
+											<!-- ======================= whats new section ======================= -->
+  <section class="p20 blue-bg">
+    <div class="container">
+      
+      <hr class="head-br">
+      <div class="row">
+        <div class="col-lg-6 centered">
+          
+          <img class="centered" src="1.jpg"  alt=""><br><br>
+          <img class="centered" src="images/oats.jpg"  alt=""><br><br>
+          <img class="centered" src="images/barley.jpg"  alt=""><br><br>
+        </div>
+
+      <div class="col-lg-6 ">
+        
+        <ul>
+        <li> <p>Rice </p>   </li>
+          <li> <p>Organic in nature</p>   </li>
+          <li> <p>70 Rs per Kg</p></li>
+          <li> <p>Additional tax may apply; charged at checkout </p>   </li>
+          <li> <p>100% Original Products</p>   </li>
+          <li> <button type="button" onclick="alert('Done')">Buy This Product</button></li>
+        </ul>
+
+        <br><br><br>
+
+         <ul>
+        <li> <p>Oats</p>   </li>
+          <li> <p>Organic in nature</p>   </li>
+          <li> <p>85 Rs per Kg</p></li>
+          <li> <p>Additional tax may apply; charged at checkout </p>   </li>
+          <li> <p>100% Original Products</p>   </li>
+          <li> <button type="button" onclick="alert('Done')">Buy This Product</button></li>
+        </ul>
+
+        <br><br><br>
+
+
+         <ul>
+          <li> <p>Barley</p>   </li>
+          <li> <p>Organic in nature</p>   </li>
+          <li> <p>38 Rs per Kg</p></li>
+          <li> <p>Additional tax may apply; charged at checkout </p>   </li>
+          <li> <p>100% Original Products</p>   </li>
+          <li> <button type="button" onclick="alert('Done')">Buy This Product</button></li>
+        </ul>
+
+
+
+
+        
+      </div>
+
+     
+      </div>
+    </div>
+
+  </section>
+										</td>
+										</tr>
+								</table>
+								</div>
+						</p>
+					</div>
+					<div>
+						<div class="dummy-img dummy-img-2"><img src="images/g7.jpg" alt="Odyssey"></div>
+						<p class="dummy-text aitsheadingw3">SEEDS</p>
+						<p class="dummy-text">
+							<div id="crops">
+								<table cellpadding="50px", cellspacing="40px", align="center">
+									<tr>
+										<td>
+											<!-- ======================= whats new section ======================= -->
+  <section class="p20 blue-bg">
+    <div class="container">
+      
+      <hr class="head-br">
+      <div class="row">
+        <div class="col-lg-6 centered">
+          
+          <img class="centered" src="images/millet.png"  alt=""><br><br>
+          <img class="centered" src="images/maize.png"  alt=""><br><br>
+          <img class="centered" src="images/rye.png"  alt=""><br><br>
+        </div>
+
+      <div class="col-lg-6 ">
+        
+        <ul>
+        <li> <p>Millet </p>   </li>
+          <li> <p>Organic in nature</p>   </li>
+          <li> <p>79 Rs per Kg</p></li>
+          <li> <p>Additional tax may apply; charged at checkout </p>   </li>
+          <li> <p>100% Original Products</p>   </li>
+          <li> <button type="button" onclick="alert('Done')">Buy This Product</button></li>
+        </ul>
+
+        <br><br><br>
+
+         <ul>
+        <li> <p>Maize</p>   </li>
+         <li> <p>Organic in nature</p>   </li>
+          <li> <p>40 Rs per Kg</p></li>
+          <li> <p>Additional tax may apply; charged at checkout </p>   </li>
+          <li> <p>100% Original Products</p>   </li>
+          <li> <button type="button" onclick="alert('Done')">Buy This Product</button></li>
+        </ul>
+
+        <br><br><br>
+
+
+         <ul>
+          <li> <p>Rye</p>   </li>
+         <li> <p>Organic in nature</p>   </li>
+          <li> <p>70 Rs per Kg</p></li>
+          <li> <p>Additional tax may apply; charged at checkout </p>   </li>
+          <li> <p>100% Original Products</p>   </li>
+          <li> <button type="button" onclick="alert('Done')">Buy This Product</button></li>
+        </ul>
+
+
+
+
+        
+      </div>
+
+     
+      </div>
+    </div>
+
+  </section>
+										</td>
+										</tr>
+								</table>
+								</div>
+
+						</p>
+					</div>
+					<div>
+						<div class="dummy-img dummy-img-3"><img src="images/g3.jpg" alt="Odyssey"></div>
+						<p class="dummy-text aitsheadingw3">LIVESTOCK</p>
+						<p class="dummy-text">
+							<div id="crops">
+								<table cellpadding="50px", cellspacing="40px", align="center">
+									<tr>
+										<td>
+											<!-- ======================= whats new section ======================= -->
+  <section class="p20 blue-bg">
+    <div class="container">
+      
+      <hr class="head-br">
+      <div class="row">
+        <div class="col-lg-6 centered">
+          
+          <img class="centered" src="images/wheat.png"  alt=""><br><br>
+          <img class="centered" src="images/chessnut.jpg"  alt=""><br><br>
+          <img class="centered" src="images/quinoa seed.jpg"  alt=""><br><br>
+        </div>
+
+      <div class="col-lg-6 ">
+        
+        <ul>
+        <li> <p>Wheat</p>   </li>
+          <li> <p>Organic in nature</p>   </li>
+          <li> <p>110 Rs per Kg</p></li>
+          <li> <p>Additional tax may apply; charged at checkout </p>   </li>
+          <li> <p>100% Original Products</p>   </li>
+          <li> <button type="button" onclick="alert('Done')">Buy This Product</button></li>
+        </ul>
+
+        <br><br><br>
+
+         <ul>
+        <li> <p>ChessNu</p>   </li>
+         <li> <p>Organic in nature</p>   </li>
+          <li> <p>58 Rs per Kg</p></li>
+          <li> <p>Additional tax may apply; charged at checkout </p>   </li>
+          <li> <p>100% Original Products</p>   </li>
+          <li> <button type="button" onclick="alert('Done')">Buy This Product</button></li>
+        </ul>
+
+        <br><br><br>
+
+
+         <ul>
+          <li> <p>Quinoa Seed</p>   </li>
+         <li> <p>Organic in nature</p>   </li>
+          <li> <p>89 Rs per Kg</p></li>
+          <li> <p>Additional tax may apply; charged at checkout </p>   </li>
+          <li> <p>100% Original Products</p>   </li>
+          <li> <button type="button" onclick="alert('Done')">Buy This Product</button></li>
+        </ul>
+
+
+
+
+        
+      </div>
+
+     
+      </div>
+    </div>
+
+  </section>
+										</td>
+										</tr>
+								</table>
+								</div>
+						</p>
+					</div>
+					<div>
+						<div class="dummy-img dummy-img-4"><img src="images/g4.jpg" alt="Odyssey"></div>
+						<p class="dummy-text aitsheadingw3">FARMING</p>
+						<p class="dummy-text">
+							<div id="crops">
+								<table cellpadding="50px", cellspacing="40px", align="center">
+									<tr>
+										<td>
+											<!-- ======================= whats new section ======================= -->
+  <section class="p20 blue-bg">
+    <div class="container">
+      
+      <hr class="head-br">
+      <div class="row">
+        <div class="col-lg-6 centered">
+          
+          <img class="centered" src="images/cofeegrain.jpg"  alt=""><br><br>
+          <img class="centered" src="images/sorghum.jpg"  alt=""><br><br>
+          <img class="centered" src="images/soyabean.jpg"  alt=""><br><br>
+        </div>
+
+      <div class="col-lg-6 ">
+        
+        <ul>
+        <li> <p>Cofee Grains</p>   </li>
+					<li> <p>Organic in nature</p>   </li>
+          <li> <p>150 Rs per Kg</p></li>
+          <li> <p>Additional tax may apply; charged at checkout </p>   </li>
+          <li> <p>100% Original Products</p>   </li>
+          <li> <button type="button" onclick="alert('Done')">Buy This Product</button></li>
+        </ul>
+
+        <br><br><br>
+
+         <ul>
+        <li> <p>Sorghum</p>   </li>
+         <li> <p>Organic in nature</p>   </li>
+          <li> <p>90 Rs per Kg</p></li>
+          <li> <p>Additional tax may apply; charged at checkout </p>   </li>
+          <li> <p>100% Original Products</p>   </li>
+          <li> <button type="button" onclick="alert('Done')">Buy This Product</button></li>
+        </ul>
+
+        <br><br><br>
+
+
+         <ul>
+          <li> <p>Soyabean</p>   </li>
+         <li> <p>Organic in nature</p>   </li>
+          <li> <p>32 Rs per Kg</p></li>
+          <li> <p>Additional tax may apply; charged at checkout </p>   </li>
+          <li> <p>100% Original Products</p>   </li>
+          <li> <button type="button" onclick="alert('Done')">Buy This Product</button></li>
+        </ul>
+
+
+
+
+        
+      </div>
+
+     
+      </div>
+    </div>
+
+  </section>
+										</td>
+										</tr>
+								</table>
+								</div>
+						</p>
+					</div>
+					<div>
+						<div class="dummy-img dummy-img-5"><img src="images/g5.jpg" alt="Odyssey"></div>
+						<p class="dummy-text aitsheadingw3">GRAINS</p>
+						<p class="dummy-text">
+							<div id="crops">
+								<table cellpadding="50px", cellspacing="40px", align="center">
+									<tr>
+										<td>
+											<!-- ======================= whats new section ======================= -->
+  <section class="p20 blue-bg">
+    <div class="container">
+      
+      <hr class="head-br">
+      <div class="row">
+        <div class="col-lg-6 centered">
+          
+          <img class="centered" src="images/barley.jpg"  alt=""><br><br>
+          <img class="centered" src="images/chessnut.jpg"  alt=""><br><br>
+          <img class="centered" src="images/cofeegrain.jpg"  alt=""><br><br>
+        </div>
+
+      <div class="col-lg-6 ">
+        
+        <ul>
+        <li> <p>Barley</p>   </li>
+          <li> <p>Organic in nature</p>   </li>
+          <li> <p>22 Rs per Kg</p></li>
+          <li> <p>Additional tax may apply; charged at checkout </p>   </li>
+          <li> <p>100% Original Products</p>   </li>
+          <li> <button type="button" onclick="alert('Done')">Buy This Product</button></li>
+        </ul>
+
+        <br><br><br>
+
+         <ul>
+        <li> <p>Chess Nut</p>   </li>
+         <li> <p>Organic in nature</p>   </li>
+          <li> <p>79 Rs per Kg</p></li>
+          <li> <p>Additional tax may apply; charged at checkout </p>   </li>
+          <li> <p>100% Original Products</p>   </li>
+          <li> <button type="button" onclick="alert('Done')">Buy This Product</button></li>
+        </ul>
+
+        <br><br><br>
+
+
+         <ul>
+          <li> <p>>Coffee Grain</p>   </li>
+         <li> <p>Organic in nature</p>   </li>
+          <li> <p>250 Rs per Kg</p></li>
+          <li> <p>Additional tax may apply; charged at checkout </p>   </li>
+          <li> <p>100% Original Products</p>   </li>
+          <li> <button type="button" onclick="alert('Done')">Buy This Product</button></li>
+        </ul>
+
+
+
+
+        
+      </div>
+
+     
+      </div>
+    </div>
+
+  </section>
+										</td>
+										</tr>
+								</table>
+								</div>
+						</p>
+					</div>
+					<div>
+						<div class="dummy-img dummy-img-6"><img src="images/g1.jpg" alt="Odyssey"></div>
+						<p class="dummy-text aitsheadingw3">RAISING</p>
+						<p class="dummy-text">
+							<div id="crops">
+								<table cellpadding="50px", cellspacing="40px", align="center">
+									<tr>
+										<td>
+											<!-- ======================= whats new section ======================= -->
+  <section class="p20 blue-bg">
+    <div class="container">
+      
+      <hr class="head-br">
+      <div class="row">
+        <div class="col-lg-6 centered">
+          
+          <img class="centered" src="images/corn.jpg"  alt=""><br><br>
+          <img class="centered" src="images/flaxseed.jpg"  alt=""><br><br>
+          <img class="centered" src="images/greenbeans.jpg"  alt=""><br><br>
+        </div>
+
+      <div class="col-lg-6 ">
+        
+        <ul>
+        <li> <p>Corn</p>   </li>
+          <li> <p>Organic in nature</p>   </li>
+          <li> <p>22 Rs per Kg</p></li>
+          <li> <p>Additional tax may apply; charged at checkout </p>   </li>
+          <li> <p>100% Original Products</p>   </li>
+          <li> <button type="button" onclick="alert('Done')">Buy This Product</button></li>
+        </ul>
+
+        <br><br><br>
+
+         <ul>
+        <li> <p>Flax Seed</p>   </li>
+         <li> <p>Organic in nature</p>   </li>
+          <li> <p>70 Rs per Kg</p></li>
+          <li> <p>Additional tax may apply; charged at checkout </p>   </li>
+          <li> <p>100% Original Products</p>   </li>
+          <li> <button type="button" onclick="alert('Done')">Buy This Product</button></li>
+        </ul>
+
+        <br><br><br>
+
+
+         <ul>
+          <li> <p>Green Beans</p>   </li>
+         <li> <p>Organic in nature</p>   </li>
+          <li> <p>20 Rs per Kg</p></li>
+          <li> <p>Additional tax may apply; charged at checkout </p>   </li>
+          <li> <p>100% Original Products</p>   </li>
+          <li> <button type="button" onclick="alert('Done')">Buy This Product</button></li>
+        </ul>
+
+
+
+
+        
+      </div>
+
+     
+      </div>
+    </div>
+
+  </section>
+										</td>
+										</tr>
+								</table>
+								</div>
+						</p>
+					</div>
+					<div>
+						<div class="dummy-img dummy-img-7"><img src="images/g2.jpg" alt="Odyssey"></div>
+						<p class="dummy-text aitsheadingw3">PADDY</p>
+						<p class="dummy-text"><div id="crops">
+								<table cellpadding="50px", cellspacing="40px", align="center">
+									<tr>
+										<td>
+											<!-- ======================= whats new section ======================= -->
+  <section class="p20 blue-bg">
+    <div class="container">
+      
+      <hr class="head-br">
+      <div class="row">
+        <div class="col-lg-6 centered">
+          
+          <img class="centered" src="images/greennut.jpg"  alt=""><br><br>
+          <img class="centered" src="images/lotusseed.jpg"  alt=""><br><br>
+          <img class="centered" src="images/maize.jpg"  alt=""><br><br>
+        </div>
+
+      <div class="col-lg-6 ">
+        
+        <ul>
+        <li> <p>Green Nuts</p>   </li>
+          <li> <p>Organic in nature</p>   </li>
+          <li> <p>70 Rs per Kg</p></li>
+          <li> <p>Additional tax may apply; charged at checkout </p>   </li>
+          <li> <p>100% Original Products</p>   </li>
+          <li> <button type="button" onclick="alert('Done')">Buy This Product</button></li>
+        </ul>
+
+        <br><br><br>
+
+         <ul>
+        <li> <p>Lotus Seed</p>   </li>
+         <li> <p>Organic in nature</p>   </li>
+          <li> <p>66 Rs per Kg</p></li>
+          <li> <p>Additional tax may apply; charged at checkout </p>   </li>
+          <li> <p>100% Original Products</p>   </li>
+          <li> <button type="button" onclick="alert('Done')">Buy This Product</button></li>
+        </ul>
+
+        <br><br><br>
+
+
+         <ul>
+          <li> <p>Maize</p>   </li>
+         <li> <p>Organic in nature</p>   </li>
+          <li> <p>23 Rs per Kg</p></li>
+          <li> <p>Additional tax may apply; charged at checkout </p>   </li>
+          <li> <p>100% Original Products</p>   </li>
+          <li> <button type="button" onclick="alert('Done')">Buy This Product</button></li>
+        </ul>
+
+
+
+
+        
+      </div>
+
+     
+      </div>
+    </div>
+
+  </section>
+										</td>
+										</tr>
+								</table>
+								</div></p>
+					</div>
+					<div>
+						<div class="dummy-img dummy-img-8"><img src="images/g7.jpg" alt="Odyssey"></div>
+						<p class="dummy-text aitsheadingw3">CROPS</p>
+						<p class="dummy-text">
+							<div id="crops">
+								<table cellpadding="50px", cellspacing="40px", align="center">
+									<tr>
+										<td>
+											<!-- ======================= whats new section ======================= -->
+  <section class="p20 blue-bg">
+    <div class="container">
+      
+      <hr class="head-br">
+      <div class="row">
+        <div class="col-lg-6 centered">
+          
+          <img class="centered" src="images/malt.jpg"  alt=""><br><br>
+          <img class="centered" src="images/millet.png"  alt=""><br><br>
+          <img class="centered" src="images/oats.jpg"  alt=""><br><br>
+        </div>
+
+      <div class="col-lg-6 ">
+        
+        <ul>
+        <li> <p>Malt</p>   </li>
+					<li> <p>Organic in nature</p>   </li>
+          <li> <p>70 Rs per Kg</p></li>
+          <li> <p>Additional tax may apply; charged at checkout </p>   </li>
+          <li> <p>100% Original Products</p>   </li>
+          <li> <button type="button" onclick="alert('Done')">Buy This Product</button></li>
+        </ul>
+
+        <br><br><br>
+
+         <ul>
+        <li> <p>Millet</p>   </li>
+         <li> <p>Organic in nature</p>   </li>
+          <li> <p>90 Rs per Kg</p></li>
+          <li> <p>Additional tax may apply; charged at checkout </p>   </li>
+          <li> <p>100% Original Products</p>   </li>
+          <li> <button type="button" onclick="alert('Done')">Buy This Product</button></li>
+        </ul>
+
+        <br><br><br>
+
+
+         <ul>
+          <li> <p>Oats</p>   </li>
+         <li> <p>Organic in nature</p>   </li>
+          <li> <p>20 Rs per Kg</p></li>
+          <li> <p>Additional tax may apply; charged at checkout </p>   </li>
+          <li> <p>100% Original Products</p>   </li>
+          <li> <button type="button" onclick="alert('Done')">Buy This Product</button></li>
+        </ul>
+
+
+
+
+        
+      </div>
+
+     
+      </div>
+    </div>
+
+  </section>
+										</td>
+										</tr>
+								</table>
+								</div>
+						</p>
+					</div>
+					<div>
+						<div class="dummy-img dummy-img-9"><img src="images/g6.jpg" alt="Odyssey"></div>
+						<p class="dummy-text aitsheadingw3">GRAINS</p>
+						<p class="dummy-text"><div id="crops">
+								<table cellpadding="50px", cellspacing="40px", align="center">
+									<tr>
+										<td>
+											<!-- ======================= whats new section ======================= -->
+  <section class="p20 blue-bg">
+    <div class="container">
+      
+      <hr class="head-br">
+      <div class="row">
+        <div class="col-lg-6 centered">
+          
+          <img class="centered" src="images/peanuts.jpg"  alt=""><br><br>
+          <img class="centered" src="images/pepper.jpg"  alt=""><br><br>
+          <img class="centered" src="images/redbean.jpg"  alt=""><br><br>
+        </div>
+
+      <div class="col-lg-6 ">
+        
+        <ul>
+        <li> <p>Peanuts </p>   </li>
+					<li> <p>Organic in nature</p>   </li>
+          <li> <p>50 Rs per Kg</p></li>
+          <li> <p>Additional tax may apply; charged at checkout </p>   </li>
+          <li> <p>100% Original Products</p>   </li>
+          <li> <button type="button" onclick="alert('Done')">Buy This Product</button></li>
+        </ul>
+
+        <br><br><br>
+
+         <ul>
+        <li> <p>Pepper</p>   </li>
+         <li> <p>Organic in nature</p>   </li>
+          <li> <p>700 Rs per Kg</p></li>
+          <li> <p>Additional tax may apply; charged at checkout </p>   </li>
+          <li> <p>100% Original Products</p>   </li>
+          <li> <button type="button" onclick="alert('Done')">Buy This Product</button></li>
+        </ul>
+
+        
+
+
+         <ul>
+          <li> <p>Red Beans</p>   </li>
+         <li> <p>Organic in nature</p>   </li>
+          <li> <p>70 Rs per Kg</p></li>
+          <li> <p>Additional tax may apply; charged at checkout </p>   </li>
+          <li> <p>100% Original Products</p>   </li>
+          <li> <button type="button" onclick="alert('Done')">Buy This Product</button></li>
+        </ul>
+
+
+
+
+        
+      </div>
+
+     
+      </div>
+    </div>
+
+  </section>
+										</td>
+										</tr>
+								</table>
+								</div></p>
+					</div>
+					<span class="loading"></span>
+					<span class="icon close-content"><i class="fa fa-times" aria-hidden="true"></i></span>
+				</div>
+			</section>
+		</div>
+	</div>
+	<!-- //portfolio -->
+<!-- blog -->	
+<div class="blog jarallax  agile-section" id="blog">
+	<div class="container">
+		<span class="wthree-line wthree-left"></span>
+		<span class="wthree-line wthree-right"></span>
+		<i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+		<h3 class="agileits-title text-center">latest blog posts</h3>
+		<div class="w3-blog-grids">
+			<div class="col-md-4 col-sm-4 col-xs-4 w3-blog">
+				<div class="agileits-img">
+					<a href="#" data-toggle="modal" data-target="#myModal"> 
+						<img src="images/2.jpg" alt="" class="img-responsive"/>
+					</a>
+				</div>  
+				<div class="agileits-blog-bottom">	
+					<div class="w3-agile-post-info">
+						<ul>
+							<li class="w3ls-icon-left">By Consumer Avathar - Amar and Suresh Patil (Ladies Finger Farmers)  Maharashtra, Jalgaon, Dharangaon, Dharangaon (Rural).</li>
+							<li class="w3ls-icon-right"><i class="fa fa-heart" aria-hidden="true"></i>40</li>
+						</ul>
+						<div class="clearfix"></div>
+						<a href="#" data-toggle="modal" data-target="#myModal"><h5>25 Oct:</h5>	<h4>blog post</h4></a>
+						<p>
+							Jalgaon Farmers shared their words on selling 
+							ladies finger to Maitat Exports for better price 
+							than local market,with the help of Farmers Market .							
+							</p>
+					</div>
+					<a href="#"><i class="w3-agile-share fa fa-share-alt" aria-hidden="true"></i></a>
+					<div class="w3-blog w3l-button">
+						<a href="#" data-toggle="modal" data-target="#myModal">More</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-4 col-xs-4 w3-blog b2">
+				<div class="agileits-blog-bottom">		
+					<div class="w3-agile-post-info">
+						<ul>
+							<li class="w3ls-icon-left">By Consumer Avathar - K. Purushotham Naidu(R.C. Puram Paddy Farmer)  Andhra Pradesh, Chittoor, Ramachandrapuram, Kammakandriga.</li>
+							<li class="w3ls-icon-right"><i class="fa fa-heart" aria-hidden="true"></i>40</li>
+						</ul>
+						<div class="clearfix"></div>
+						<a href="#" data-toggle="modal" data-target="#myModal"><h5>20 Jul:</h5>	<h4>blog post</h4></a>
+						<p>						
+							I am a paddy farmer, I have cultivated Paddy and 
+							listed my crop in Farmers Market. Farmers Market linked 
+							to another farmer and I have sold paddy. 
+	Farmers Market is helpful for me to get good price when 
+							compared to local market.
+							Farmer To Farmer Transactions for organic manure,
+							used farm equipment and Seeds.
+							</p>
+					</div>
+					<a href="#"><i class="w3-agile-share fa fa-share-alt" aria-hidden="true"></i></a>
+					<div class="w3-blog w3l-button">
+						<a href="#" data-toggle="modal" data-target="#myModal">More</a>
+					</div>
+				</div>
+				<div class="agileits-img">
+					<a href="#" data-toggle="modal" data-target="#myModal"> 
+						<img src="images/10.jpg" alt="" class="img-responsive"/>
+					</a>
+				</div> 
+			</div>	
+			<div class="col-md-4 col-sm-4 col-xs-4 w3-blog b3">
+				<div class="agileits-img">
+					<a href="#" data-toggle="modal" data-target="#myModal"> 
+						<img src="images/9.jpg" alt="" class="img-responsive"/>
+					</a>
+				</div>  
+				 
+				<div class="agileits-blog-bottom">		
+					<div class="w3-agile-post-info">
+						<ul>
+							<li class="w3ls-icon-left">By Consumer Avathar - Prabhakar Sitaram Patil(Banana Farmer)  Maharashtra, Jalgaon, Jalgaon, Gadhode</li>
+							<li class="w3ls-icon-right"><i class="fa fa-heart" aria-hidden="true"></i>40</li>
+						</ul>
+						<div class="clearfix"></div>
+						<a href="#" data-toggle="modal" data-target="#myModal"><h5>15 Aug:</h5>	<h4>blog post</h4></a>
+						<p>
+							I am a farmer from Jalgaon. I have cultivated 
+							banana crop and listed my crop in Farmers Market.
+							Farmers Market  linked up me to Shivneri Agro 
+							ripening chamber. I got a good price for my 
+							produce,when compared to local market.</p>
+					</div>
+					<a href="#"><i class="w3-agile-share fa fa-share-alt" aria-hidden="true"></i></a>
+					<div class="w3-blog w3l-button">
+						<a href="#" data-toggle="modal" data-target="#myModal">More</a>
+					</div>
+			  </div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+     </div>	
+    </div>
+<!-- //blog -->	
+<div class="container" id="team">
+
+		<div class="tab">
+
+			<div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
+				<script src="js/easyResponsiveTabs.js" type="text/javascript"></script>
+				<script type="text/javascript">
+					$(document).ready(function () {
+						$('#horizontalTab').easyResponsiveTabs({
+							type: 'default', //Types: default, vertical, accordion
+							width: 'auto', //auto or any width like 600px
+							fit: true,   // 100% fit in a container
+							closed: 'accordion', // Start closed if in accordion view
+							activate: function(event) { // Callback function if tab is switched
+								var $tab = $(this);
+								var $info = $('#tabInfo');
+								var $name = $('span', $info);
+								$name.text($tab.text());
+								$info.show();
+							}
+						});
+
+						$('#verticalTab').easyResponsiveTabs({
+							type: 'vertical',
+							width: 'auto',
+							fit: true
+						});
+					});
+				</script>
+
+
+
+
+				
+	
+	
+		<div class="container">
+	
+			<div class="tab">
+	
+				<div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
+					<script src="js/easyResponsiveTabs.js" type="text/javascript"></script>
+					
+					<script type="text/javascript">
+						$(document).ready(function () {
+							$('#horizontalTab').easyResponsiveTabs({
+								type: 'default', //Types: default, vertical, accordion
+								width: 'auto', //auto or any width like 600px
+								fit: true,   // 100% fit in a container
+								closed: 'accordion', // Start closed if in accordion view
+								activate: function(event) { // Callback function if tab is switched
+									var $tab = $(this);
+									var $info = $('#tabInfo');
+									var $name = $('span', $info);
+									$name.text($tab.text());
+									$info.show();
+								}
+							});
+	
+							$('#verticalTab').easyResponsiveTabs({
+								type: 'vertical',
+								width: 'auto',
+								fit: true
+							});
+						});
+					</script>
+	
+					<div class="tabs">
+	
+						<div class="tab-left">
+							<ul class="resp-tabs-list">
+								<li class="resp-tab-item">Sign In Form</li>
+								<li class="resp-tab-item">Sign Up Form</li>
+								<li class="resp-tab-item">Subscribe Form</li>
+								<li class="resp-tab-item">List Your Crops</li>
+								<li class="resp-tab-item">Buy Product</li>
+							</ul>
+						</div>
+	
+						<div class="tab-right">
+							<div class="resp-tabs-container">
+								<div class="tab-1 resp-tab-content">
+									<div class="w3l-sign-in">
+										<h3>Sign In Form</h3>
+										<form action="#" method="post">
+											<input type="text" class="name" name="username" placeholder="Username" required="">
+											<input type="password" class="password" name="password" placeholder="Password" required="">
+											<ul class="w3agile">
+												<li>
+													<input type="checkbox" id="brand1" value="">
+													<label for="brand1"><span></span>Remember me</label>
+												</li>
+											</ul>
+											<input type="submit" value="Sign In">
+											<div class="clear"></div>
+										</form>
+									</div>
+								</div>
+								<div class="tab-1 resp-tab-content">
+									<div class="register agileits">
+									<h3>Sign Up Form</h3>
+										<form action="#" method="post">
+											<input type="text" class="name" name="username" placeholder="Company Name" required="">
+											<input type="text" class="address" name="address" placeholder="Company Address" required="">
+											<input type="text" class="zipcode" name="zipcode" placeholder="Zip Code" required="">
+											<input type="text" class="mobileno" name="mobileno" placeholder="Company Contact Number" required="">
+												<input type="text" class="city" name="city" placeholder="City" required="">
+											<input type="text" class="state" name="state" placeholder="State" required="">
+											<input type="text" class="web_address" name="web_address" placeholder="Email" required="">
+											<input type="text" class="web_address" name="web_address" placeholder="Web Address" required="">
+											<input type="password" class="password" name="password" placeholder="Password" required="">
+											<input type="password" class="password" name="confirm password" placeholder="Confirm Password" required="">
+											<input type="submit" value="Sign Up">c
+										</form>
+									</div>
+								</div>
+								<div class="tab-1 resp-tab-content gallery-images">
+									<div class="wthree-subscribe">	
+									<h3>Subscribe Form</h3>
+										<form action="#" method="post">
+											<input type="text" class="email" name="email" placeholder="Email" required="">
+
+
+											<input type="submit" value="Subscribe" style="display:inline-block" >
+											<input type="submit" class="no-thanks" value="No,Thanks" style="display:inline-block">
+
+
+										</form>
+									</div>
+								</div>
+								<div class="tab-1 resp-tab-content">
+									<div class="agileinfo-recover">
+									<h3>List Your Crops</h3>
+										<form action="#" method="post">
+											<input type="text" class="crop_name" name="crop_name" placeholder="Crop Name" required="">
+						
+											<input type="text" class="oi" name="oi" placeholder="Organic/Inorganic" required="">
+											<input type="text" class="n0_of_unit" name="no_of_unit" placeholder="No of Unit" required="">
+											<input type="text" class="r_per_unit" name="r_per_unit" placeholder="Rate per unit" required="">
+											<input type="text" class="number" name="phone number" placeholder="Phone Number" required="">
+											<input type="text" class="State" name="State" placeholder="State" required="">
+											<input type="text" class="city" name="city" placeholder="City" required="">
+											<input type="submit" class="send" value="Add" style="display:inline-block" onclick="alert('Done')">
+											<input type="submit" class="done" value="Reset" style="display:inline-block" onclick="alert('Done')">
+										</form>
+									</div>
+								</div>
+								<div class="tab-1 resp-tab-content">
+									<div class="agile-send-mail">
+									<h3>Buy Product</h3>
+									<form action="#" method="post">
+										<input type="text" class="quantity" name="username" placeholder="Quantity" required="">
+										<input type="text" class="usage" name="email" placeholder="Usage/Application" required="">
+										<input type="text" class="requirement" name="email" placeholder="Requirement Detail" required="">
+										<input type="submit" value="Post Requirement">
+									</form>
+								</div>
+								</div>
+							</div>
+						</div>
+	
+						<div class="clear"></div>
+					</div>
+	
+				</div>
+	
+			</div>
+	
+		</div>
+	
+		<div class="footer">
+			
+		</div>
+	
+	</body>
+	</html>
+<!-- Contact-form -->
+<div class="jarallax contact-form agile-section" id="contact">
+	<div class="container">	
+	<span class="wthree-line wthree-left"></span>
+	<span class="wthree-line wthree-right"></span>
+	<i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+	<h3 class="agileits-title text-center">Contact Us</h3>
+	<div class="w3agile-contact text-center">
+			<div class="col-md-3 col-sm-3 w3_agileits-contact-grid">
+				<span class="w3ls-icon fa fa-map-marker" aria-hidden="true"></span>
+				<h4>Address</h4>
+				<ul>
+					<li>Farmers Market</li>
+					<li>Ispat Bhavan,Shivaji Road</li>
+					<li>Maharashtra,INDIA</li>
+					
+				</ul>
+			</div>
+			<div class="col-md-3 col-sm-3 w3_agileits-contact-grid sr1">
+				<span class="w3ls-icon fa fa-phone" aria-hidden="true"></span>
+				<h4>phone</h4>
+				<ul>
+					<li>+91-88892 56622</li>
+					<li>+91-88892 56632</li>
+					<li>+91-88892 56642</li>
+				</ul>
+			</div>
+			<div class="col-md-3 col-sm-3 w3_agileits-contact-grid sr2">
+				<span class="w3ls-icon fa fa-envelope-o fa-lg" aria-hidden="true"></span>
+				<h4>contacts</h4>
+				<ul>
+					<li><a href="mailto:info@example.com">farmerspoint@gmail.com</a></li>
+					<li><a href="mailto:info@example.com">buy_ur_choice@purchase.com</a></li>
+					<li><a href="mailto:info@example.com">farmer_market@hotmail.com</a></li>
+				</ul>
+			</div>
+			<div class="col-md-3 col-sm-3 w3_agileits-contact-grid" style="width:20.05%">
+				<span class="w3ls-icon fa fa-clock-o" aria-hidden="true"></span>
+				<h4>Working hours</h4>
+				<ul>
+					<li>Monday-Friday : <span> 9:00-18:00</span></li>
+					<li>Saturday : <span>11:00-17:00</span></li>
+					<li>Sunday :<span>closed</span></li>
+				</ul>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+		<form action="#" method="post">
+			<div class="w3ls-input">
+				<input type="text" placeholder="Name" name="name" required="">
+				<div class="w3l-icon w3ls-form-icon1"><i class="w3ls-icon fa fa-user" aria-hidden="true"></i></div>
+			</div>	
+			<div class="w3ls-input">
+				<input type="email" placeholder="Email" name="email" class="email" required="">
+				<div class="w3l-icon w3ls-form-icon2"><i class="w3ls-icon  fa fa-envelope-o fa-lg" aria-hidden="true"></i></div>
+			</div>	
+			
+			<div class="clear"></div>
+			<textarea placeholder="Message" name="message" required=""></textarea>
+			<button class="btn1">Submit message</button>
+		</form>
+	</div>	
+</div>	
+<!-- //Contact-form -->
+<!-- modal -->
+<div class="modal about-modal fade" id="myModal" tabindex="-1" role="dialog">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header"> 
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+					<h4 class="modal-title">grains</h4>
+			</div> 
+			<div class="modal-body">
+				<div class="agileits-w3layouts-info">
+					<img src="images/2.jpg" alt="" />
+					<p>Duis venenatis, turpis eu bibendum porttitor, sapien quam ultricies tellus, ac rhoncus risus odio eget nunc. Pellentesque ac fermentum diam. Integer eu facilisis nunc, a iaculis felis. Pellentesque pellentesque tempor enim, in dapibus turpis porttitor quis. Suspendisse ultrices hendrerit massa. Nam id metus id tellus ultrices ullamcorper.  Cras tempor massa luctus, varius lacus sit amet, blandit lorem. Duis auctor in tortor sed tristique. Proin sed finibus sem.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="agileits_w3layouts-footer">
+	<div class="col-md-6  agileinfo-copyright">
+		
+	</div>
+	<div class="col-md-6 agileinfo-icons">
+		<ul>
+			<li><a class="icon fb" href="#"><i class="fa fa-facebook"></i></a></li>
+			<li><a class="icon tw" href="#"><i class="fa fa-twitter"></i></a></li>
+			<li><a class="icon pin" href="#"><i class="fa fa-pinterest"></i></a></li>
+			<li><a class="icon db" href="#"><i class="fa fa-dribbble"></i></a></li>
+			<li><a class="icon gp" href="#"><i class="fa fa-google-plus"></i></a></li>
+		</ul>
+	</div>
+</div>
+<!-- //footer -->
+<!--portfolio-JavaScript -->
+		<script src="js/classie.js"></script>
+		<script src="js/helper.js"></script>
+		<script src="js/grid3d.js"></script>
+		<script>
+			new grid3D( document.getElementById( 'grid3d' ) );
+		</script>
+<!-- portfolio-JavaScript --
+<script src="js/jarallax.js"></script>
+<script src="js/SmoothScroll.min.js"></script>
+<script type="text/javascript">
+	/* init Jarallax */
+	$('.jarallax').jarallax({
+		speed: 0.5,
+		imgWidth: 1366,
+		imgHeight: 768
+	})
+</script>
+<!-- here starts scrolling icon -->
+		<script type="text/javascript">
+			$(document).ready(function() {
+				/*
+					var defaults = {
+					containerID: 'toTop', // fading element id
+					containerHoverID: 'toTopHover', // fading element hover id
+					scrollSpeed: 1200,
+					easingType: 'linear' 
+					};
+				*/
+										
+				$().UItoTop({ easingType: 'easeOutQuart' });
+									
+				});
+		</script>
+		
+		<!-- start-smoth-scrolling -->
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+		<!-- /ends-smoth-scrolling -->
+	<!-- //here ends scrolling icon -->
+</body>	
+</html>
